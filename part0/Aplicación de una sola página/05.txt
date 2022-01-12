@@ -1,0 +1,14 @@
+title 0.5 Aplicación de una sola página
+
+brower->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+Server-->brower: HTML
+brower->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->brower: main.css
+brower->Server: HTTP GEThttps://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-->brower: main.js
+
+brower->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->brower: [{"content":"","date":"2022-01-11T19:51:57.778Z"}, ...]
+
+brower->Server: HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+Server-->brower: HTML
